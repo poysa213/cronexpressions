@@ -1,0 +1,55 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.log
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS Finder
+.DS_Store
+
+# pytest cache
+.cache/
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+*.egg
+
+# .tox, .nox, .coverage, .hypothesis, and .pytest
+.tox/
+.nox/
+.coverage
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pyre type checker
+.pyre/
+
+# Coverage.py
+.coverage/
+
+# local environment
+.env/
